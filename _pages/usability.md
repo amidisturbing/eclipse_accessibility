@@ -9,3 +9,4 @@ permalink: >
   http://www.amidisturbing.com/tutorial/usability/
 published: true
 ---
+http://www.amidisturbing.com/wp-admin/admin-ajax.php?action=wpghs_sync_request
