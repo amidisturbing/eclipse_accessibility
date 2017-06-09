@@ -9,4 +9,4 @@ permalink: >
   http://www.amidisturbing.com/tutorial/usability/
 published: true
 ---
-[github_readme repo=“amidisturbing/eclipse_accessibility“]
+[github_readme repo=“github.com/amidisturbing/eclipse_accessibility“]
