@@ -9,7 +9,6 @@ permalink: >
   http://www.amidisturbing.com/tutorial/eclipse-tutorial/
 published: true
 ---
-# Eclipse Tutorial
 
 Dieses Tutorial richtet sich an blinde Softwareentwickler/innen, die in der Hochsprache Java innerhalb der Eclipse IDE Programme schreiben möchten und bis jetzt kein geeignetes Tutorial für sehbehinderte Menschen finden konnten. Das gewählte Betriebssystem ist Windows. Als unterstützende Technologie wird der Screenreader JAWS genutzt. Sollten Sie mit NVDA oder einem anderen Screenreader vertraut sein, spricht nichts dagegen, dieses Tutorial mit dem Screenreader Ihrer Wahl zu bearbeiten.
 
