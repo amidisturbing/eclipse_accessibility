@@ -8,4 +8,4 @@ layout: page
 permalink: http://www.amidisturbing.com/contact/
 published: true
 ---
-[contact-form-7 id="76" title="Subscription"]
+[contact-form-7 id="75" title="Kontaktformular 1"]
