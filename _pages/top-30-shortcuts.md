@@ -1,6 +1,8 @@
 ---
 ID: 115
-post_title: Top 30 Shortcuts
+post_title: >
+  Top 30 Eclipse Shortcuts für Java
+  Programmierer
 author: amidisturbing
 post_date: 2017-06-22 19:28:39
 post_excerpt: ""
@@ -9,8 +11,6 @@ permalink: >
   http://www.amidisturbing.com/tutorial/eclipse-shortcuts/top-30-shortcuts/
 published: true
 ---
-
-
 ## Die verfügbaren Hotkeys
 Eclipse bietet mehr als 200 Hotkeys und Shortcuts an.
 Mit der Tastenkombination
