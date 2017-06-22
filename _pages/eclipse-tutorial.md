@@ -42,7 +42,7 @@ Zur Auswahl der jeweiligen Eclipse-Version gelangen Sie im Hauptbereich der Seit
 
 Falls Sie also Linux oder Mac nutzen, finden Sie auch hierfür die entsprechenden Downloadlinks im Hauptfenster der Downloadseite.
 
-## Eclipse auf dem PC installieren 
+### Eclipse auf dem PC installieren 
 
 1. Verschieben oder kopieren Sie das heruntergeladene .zip- oder .tar.gz-Archiv in Ihr Root-Verzeichnis (unter Windows **C:\\**).
 2. Entpacken Sie das Archiv. Daraufhin wird Ihnen ein Ordner namens **eclipse** im aktuellen Verzeichnis erstellt.
