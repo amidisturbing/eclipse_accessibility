@@ -9,20 +9,6 @@ permalink: >
   http://www.amidisturbing.com/tutorial/eclipse-shortcuts/
 published: true
 ---
-<h2>Inhalt</h2>
-- [Hotkeys](#hotkeys)
-- [Datei und Projekt Management](#datei-und-projekt-management)
-- [Editor Fenster](#editor-fenster)
-- [Im Editor navigieren](#im-editor-navigieren)
-- [Text auswählen](#text-ausw%C3%A4hlen)
-- [Text editieren](#text-editieren)
-- [Suchen und Ersetzen](#suchen-und-ersetzen)
-- [Einrückungen und Kommentare](#einrueckungen-und-kommentare)
-- [Quellcode editieren](#quellcode-editieren)
-- [Codeinformationen](#codeinformationen)
-- [Refactoring](#refactoring)
-- [Run und Debug](#run-und-debug)
-- [Weitere Shortcuts](#weitere-shortcuts)
 
 # Hotkeys <a name="hotkeys"></a>
 Eclipse bietet mehr als 200 Hotkeys und Shortcuts an.
