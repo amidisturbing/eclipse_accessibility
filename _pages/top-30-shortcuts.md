@@ -1,6 +1,8 @@
 ---
 ID: 115
-post_title: Top 30 Shortcuts
+post_title: >
+  Top 30 der Eclipse Shortcuts für Java
+  Programmierer
 author: amidisturbing
 post_date: 2017-06-22 19:28:39
 post_excerpt: ""
