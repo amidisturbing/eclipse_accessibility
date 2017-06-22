@@ -10,6 +10,7 @@ permalink: >
 published: true
 ---
 
+##Einleitung
 Dieses Tutorial richtet sich an blinde Softwareentwickler/innen, die in der Hochsprache Java innerhalb der Eclipse IDE Programme schreiben möchten und bis jetzt kein geeignetes Tutorial für sehbehinderte Menschen finden konnten. Das gewählte Betriebssystem ist Windows. Als unterstützende Technologie wird der Screenreader JAWS genutzt. Sollten Sie mit NVDA oder einem anderen Screenreader vertraut sein, spricht nichts dagegen, dieses Tutorial mit dem Screenreader Ihrer Wahl zu bearbeiten.
 
 Die Grundlage für dieses Tutorial bietet ein [Eclipse Tutorial](https://courses.cs.washington.edu/courses/cse143/11wi/eclipse-tutorial/index.shtml) der *University of Washington*, welches unter der URL <https://courses.cs.washington.edu/courses/cse143/11wi/eclipse-tutorial/index.shtml> abrufbar ist.
