@@ -1,6 +1,6 @@
 ---
 ID: 124
-post_title: Eclipse OsX Hello World Beispiel
+post_title: Eclipse OsX Hello-World-Beispiel
 author: amidisturbing
 post_date: 2017-06-22 19:37:36
 post_excerpt: ""
