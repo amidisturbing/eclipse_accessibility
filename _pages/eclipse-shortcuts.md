@@ -1,6 +1,6 @@
 ---
 ID: 30
-post_title: Eclipse Shortcuts nach Kategorie
+post_title: Eclipse Shortcuts
 author: amidisturbing
 post_date: 2017-03-24 16:06:10
 post_excerpt: ""
