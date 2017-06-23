@@ -6,7 +6,7 @@ post_date: 2017-03-24 16:06:10
 post_excerpt: ""
 layout: page
 permalink: >
-  http://www.amidisturbing.com/accessibility/tutorials/eclipse-shortcuts/
+  http://www.amidisturbing.com/shortcuts/eclipse-shortcuts/
 published: true
 ---
 # Hotkeys <a name="hotkeys"></a>
