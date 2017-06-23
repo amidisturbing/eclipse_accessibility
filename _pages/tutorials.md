@@ -9,9 +9,7 @@ permalink: >
   http://www.amidisturbing.com/barrierefreies-programmieren/tutorials/
 published: true
 ---
-Projektbeschreibung
 <h2>Tutorials für blinde Entwickler*innen</h2>
-<p class="p1"></p>
 <p class="p1">Es stellte sich die Frage, wie und womit blinde Programmierer arbeiten, insbesondere ob die IDEs, die für sehende Programmierer eine so unverzichtbare Unterstützung bieten, für blinde Programmierer erschlossen oder erschließbar sind. Hierfür stützt sich diese Arbeit auf die Suche und Kontaktaufnahme mit blinden Entwicklerinnen und Entwicklern, um die Arbeitsweise, Wünsche und Anregungen diesbezüglich zu evaluieren.</p>
 <p class="p1">Dieses Vorgehen dient der Zielfindung um eine nützliche Hilfestellung zur effizienten Gestaltung des Arbeitsalltages blinder Programmiererinnen und Programmierer zu erstellen.</p>
 Kollaborationsaufruf
