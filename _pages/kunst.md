@@ -16,10 +16,8 @@ Für Gehörlose wird die Rubrik <a href="http://www.amidisturbing.com/music/">Mu
 
 Im Gegensatz dazu arbeitet Ami in ihrer Rubrik <a href="http://www.amidisturbing.com/kunst/bild/">Bild</a> mit Alternativen für Blinde und Sehgeschädigte. Bilder und Fotografien werden mit Textalternativen ergänzt.
 
-Die Rubrik Video
+Die Rubrik <a href="http://www.amidisturbing.com/kunst/video/">Video</a> besteht aus Zeitgründen vorerst ohne barrierefreie Alternativen. Wenn du Ami Disturbing helfen möchtest diese Rubrik hinsichtlich ihrer Barrierefreiheit zu verbessern, nutze das <a href="http://www.amidisturbing.com/contact/">Kontakt-Formular</a>.
 
-&nbsp;
-
-Bitte sei nachsichtig, wenn es ihr einmal nicht gelingt.
+Bitte sei nachsichtig, wenn es Ami's Ansatz nicht optimal umgesetzt wird und teile es ihr mit.
 
 Ami Disturbing freut sich über jedes konstruktive Feedback!
