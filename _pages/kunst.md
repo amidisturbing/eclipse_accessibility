@@ -14,7 +14,9 @@ Um auch in diesem Bereich achtsam mit dem Thema Barrierefreiheit umzugehen versu
 
 Für Gehörlose wird die Rubrik <a href="http://www.amidisturbing.com/music/">Musik</a> mit Text- oder Bildalternativen versehen, die das jeweilige Stück erfahrbar machen sollen.
 
-Im Gegensatz dazu arbeitet Ami in ihrer Rubrik Bild
+Im Gegensatz dazu arbeitet Ami in ihrer Rubrik <a href="http://www.amidisturbing.com/kunst/bild/">Bild</a> mit Alternativen für Blinde und Sehgeschädigte. Bilder und Fotografien werden mit Textalternativen ergänzt.
+
+Die Rubrik Video
 
 &nbsp;
 
