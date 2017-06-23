@@ -6,10 +6,9 @@ post_date: 2017-03-24 16:06:10
 post_excerpt: ""
 layout: page
 permalink: >
-  http://www.amidisturbing.com/tutorial/eclipse-shortcuts/
+  http://www.amidisturbing.com/accessibility/tutorials/eclipse-shortcuts/
 published: true
 ---
-
 # Hotkeys <a name="hotkeys"></a>
 Eclipse bietet mehr als 200 Hotkeys und Shortcuts an.
 Mit der Tastenkombination
@@ -111,7 +110,7 @@ Hierfür muss das Editor-Fenster fokussiert sein.
 | `CTRL`+`⇧`+`F` | Auto-Formatierung |
 | `CTRL`+`/` | Ein- oder Auskommentieren der Auswahl (fügt // am Zeilenanfang ein)|
 | `CTRL`+`⇧`+`/` | Block-Kommentar einfügen (fügt /...*/ ein) |
-| `CTRL`+`⇧`+`\` | Block-Kommentar entfernen |
+| `CTRL`+`⇧`+`` | Block-Kommentar entfernen |
 | `ALT`+`⇧`+`J` | Element-Kommentar hinzufügen |
 
 ## Quellcode editieren <a name="quellcode-editieren"></a>
