@@ -1,34 +1,33 @@
 ---
 ID: 28
-post_title: Eclipse Tutorial
+post_title: Eclipse Tutorial für Windows und JAWS
 author: amidisturbing
 post_date: 2017-03-24 16:05:54
 post_excerpt: ""
 layout: page
 permalink: >
-  http://www.amidisturbing.com/tutorial/eclipse-tutorial/
+  http://www.amidisturbing.com/barrierefreies/eclipse-tutorial/
 published: true
 ---
-
 ## Einleitung
 Dieses Tutorial richtet sich an blinde Softwareentwickler/innen, die in der Hochsprache Java innerhalb der Eclipse IDE Programme schreiben möchten und bis jetzt kein geeignetes Tutorial für sehbehinderte Menschen finden konnten. Das gewählte Betriebssystem ist Windows. Als unterstützende Technologie wird der Screenreader JAWS genutzt. Sollten Sie mit NVDA oder einem anderen Screenreader vertraut sein, spricht nichts dagegen, dieses Tutorial mit dem Screenreader Ihrer Wahl zu bearbeiten.
 
-Die Grundlage für dieses Tutorial bietet ein [Eclipse Tutorial](https://courses.cs.washington.edu/courses/cse143/11wi/eclipse-tutorial/index.shtml) der *University of Washington*, welches unter der URL <https://courses.cs.washington.edu/courses/cse143/11wi/eclipse-tutorial/index.shtml> abrufbar ist.
+Die Grundlage für dieses Tutorial bietet ein [Eclipse Tutorial](https://courses.cs.washington.edu/courses/cse143/11wi/eclipse-tutorial/index.shtml) der *University of Washington*, welches unter der URL &lt;https://courses.cs.washington.edu/courses/cse143/11wi/eclipse-tutorial/index.shtml&gt; abrufbar ist.
 
 ## Was ist die Eclipse IDE?
 Die Eclipse IDE (Integrated Development Environment) ist eine generische, quelloffene Software-Entwicklungsumgebung. Diese basiert auf einem *Plugin*-Modell, das es ermöglicht die IDE betriebssystemübergreifend für verschiedenste Entwicklungen zu nutzen, sofern Java auf dem System installiert ist.
 
 ## Installation
 
-### Anforderungen 
-Vor der Installation der Eclipse IDE muss entweder das JDK (Java Development Kit) oder die JRE (Java Runtime Environment) auf ihrem Computer installiert sein. Sie können diese unter <http://java.sun.com/javase/downloads/index.jsp> downloaden.
+### Anforderungen
+Vor der Installation der Eclipse IDE muss entweder das JDK (Java Development Kit) oder die JRE (Java Runtime Environment) auf ihrem Computer installiert sein. Sie können diese unter &lt;http://java.sun.com/javase/downloads/index.jsp&gt; downloaden.
 Die Installation des JDK wird angeraten, da dieses Ihnen den Zugriff auf die Dokumentation und den Quellcode der Standard-Java-Klassen ermöglicht.
 
 ### Download
-Die offizielle Seite für den Download der Eclipse IDE ist <https://www.eclipse.org/downloads>. Um die Navigation so einfach wie möglich zu halten, startet dieses Tutorial eine Ebene tiefer auf der Eclipse-Website, als es der offizielle Download-Link tut.
+Die offizielle Seite für den Download der Eclipse IDE ist &lt;https://www.eclipse.org/downloads&gt;. Um die Navigation so einfach wie möglich zu halten, startet dieses Tutorial eine Ebene tiefer auf der Eclipse-Website, als es der offizielle Download-Link tut.
 
-1. Rufen Sie die Seite <https://www.eclipse.org/downloads/packages> in Ihrem Browser auf.
-2. Laden Sie die **Eclipse IDE für Java Developers** herunter. 
+1. Rufen Sie die Seite &lt;https://www.eclipse.org/downloads/packages&gt; in Ihrem Browser auf.
+2. Laden Sie die **Eclipse IDE für Java Developers** herunter.
 
 *Anmerkung: Sie haben hier die Wahl zwischen **Eclipse IDE für Java Developers**, **Eclipse IDE für Java EE Developers** und weiteren Versionen für Java-Entwickler. Alle sind für dieses Tutorial geeignet.*
 
@@ -42,9 +41,9 @@ Zur Auswahl der jeweiligen Eclipse-Version gelangen Sie im Hauptbereich der Seit
 
 Falls Sie also Linux oder Mac nutzen, finden Sie auch hierfür die entsprechenden Downloadlinks im Hauptfenster der Downloadseite.
 
-### Eclipse auf dem PC installieren 
+### Eclipse auf dem PC installieren
 
-1. Verschieben oder kopieren Sie das heruntergeladene .zip- oder .tar.gz-Archiv in Ihr Root-Verzeichnis (unter Windows **C:\\**).
+1. Verschieben oder kopieren Sie das heruntergeladene .zip- oder .tar.gz-Archiv in Ihr Root-Verzeichnis (unter Windows **C:\**).
 2. Entpacken Sie das Archiv. Daraufhin wird Ihnen ein Ordner namens **eclipse** im aktuellen Verzeichnis erstellt.
 
 ## Grundlagen
@@ -55,12 +54,12 @@ Sowohl Eclipse als auch Screenreader wie JAWS haben viele Shortcuts, die die Arb
 
 1. Führen Sie die Datei **eclipse.exe** aus.
 
-2. Legen Sie Ihren Arbeitsbereich, den sogenannten *Workspace*, fest. Für dieses Tutorial ist der vorausgewählte *Workspace* im Ordner **C:\eclipse** am besten geeignet.  
+2. Legen Sie Ihren Arbeitsbereich, den sogenannten *Workspace*, fest. Für dieses Tutorial ist der vorausgewählte *Workspace* im Ordner **C:eclipse** am besten geeignet.
 
 *Anmerkung: Der Workspace kann für jede Sitzung neu definiert werden. Falls Sie nur einen Workspace für all Ihre Projekte benötigen, aktivieren Sie die Checkbox "Use this as default and do not ask again". Unter Windows: Halten Sie die `ALT`-Taste gedrückt und drücken Sie zusätzlich`U`.*
 
 3. Starten Sie die Eclipse IDE.
- 
+
 4. Bei erstmaligem Starten sehen Sie den *Welcome*-Bildschirm. Dieser stellt eine gewisse Barriere dar. In dem Fenster befindet sich (ab Eclipse Neon) ein Markierungsfeld mit der Beschriftung "Always show Welcome at start up". Dieses ist per default aktiviert. Deaktivieren Sie es. Der *Welcome*-Bildschirm stellt so beim nächsten Start keine Hürde mehr dar.
 
 5. Tabben Sie zu *Workspace* und bestätigen Sie. Nun befinden Sie sich in Ihrem Arbeitsbereich. Die für dieses Tutorial wichtigsten Ansichten sind der *Package Explorer*, der *Editor* und die *Console*.
@@ -85,11 +84,11 @@ Der *Workspace* ist das Arbeitsverzeichnis für all Ihre Projekte. Sie können m
 
 Ein *Project* ist eine Sammlung zusammengehörigen Quellcodes, welcher meist ein unabhängiges Programm formt.
 Kurz gesagt ist Ihr *Workspace* der Ordner, der all Ihre Projekte beinhaltet.
-Einem *Project* ist auch ein *Classpath* zugeordnet. Der *Classpath*  ist der Ort, an welchem Bibliotheken und andere Projekte eingebunden werden. Das Tutorial widmet sich dem  *Classpath* später in einem eigenen Abschnitt.
+Einem *Project* ist auch ein *Classpath* zugeordnet. Der *Classpath* ist der Ort, an welchem Bibliotheken und andere Projekte eingebunden werden. Das Tutorial widmet sich dem *Classpath* später in einem eigenen Abschnitt.
 
 ##### Strukturierung des Workspace und der Projekte
 
-Immer, wenn Sie in Eclipse ein Projekt anlegen, wird von Eclipse automatisch ein neuer, gleichnamiger Ordner im aktuellen *Workspace* angelegt. In diesem Ordner werden zwei weitere Ordner, nämlich *bin* und *src* (source) angelegt. Sie können den Ordner *bin* ignorieren. In diesem werden automatisch alle Kompilate, also die *.class*-Dateien, gespeichert. 
+Immer, wenn Sie in Eclipse ein Projekt anlegen, wird von Eclipse automatisch ein neuer, gleichnamiger Ordner im aktuellen *Workspace* angelegt. In diesem Ordner werden zwei weitere Ordner, nämlich *bin* und *src* (source) angelegt. Sie können den Ordner *bin* ignorieren. In diesem werden automatisch alle Kompilate, also die *.class*-Dateien, gespeichert.
 
 All Ihre *.java*-Dateien befinden sich im *src*-Ordner.
 
@@ -101,7 +100,7 @@ Sie können sich Ihren *Workspace* auch wie den Root-Folder, von welchem Eclipse
 ### Ein Projekt anlegen
 Nachdem Sie einen *Workspace* angelegt oder ausgewählt haben, können Sie auch Projekte anlegen. Projekte sind die nächstkleinere Organisationseinheit nach dem *Workspace*. Ein *Workspace* beinhaltet in der Regel mehrere Projekte. Um ein neues Projekt anzulegen, nutzen Sie die Tastenkombination `ALT` + `SHIFT` + `N` . Anhand dieses Shortcuts öffnet sich eine Liste, welche Sie durch das Drücken der `Pfeiltaste nach oben`- bzw. `Pfeiltaste nach unten` durchlaufen können. Wählen Sie mit Pfeiltaste nach unten *Java Project* aus. Benennen Sie Ihr Projekt und bestätigen Sie das Formular. Das Projekt ist nun durch Eclipse angelegt worden und im *Package Explorer* verfügbar, zu welchem Sie mit `ALT` + `SHIFT` + `Q` , `P` navigieren können. Der aktuelle Fokus des Programm-Cursors ändert sich beim Anlegen eines Projekts nur, sollte dieser im *Package Explorer* gelegen haben. In diesem Fall ändert er sich vom vorher ausgewählten Projekt zum neu erstellten. Anderenfalls bleibt der Fokus an der Stelle, an welcher er sich befand, bevor Sie ein neues Projekt angelegt haben.
 
-### 3.5 Ein Paket erstellen	
+### 3.5 Ein Paket erstellen
 Ein Paket (englisch *package*) dient dazu bestimmte Programmbereiche zu gliedern. Hierzu wird in vielen Programmiersprachen mit dem Konzept der Namensräume (englisch *namespaces*) gearbeitet. Anhand von Namensräume wird die Verwendung von gleichen Bezeichnungen ermöglicht, ähnlich wie eine Verzeichnisstruktur es ermöglicht den selben Dateinamen in verschiedenen Verzeichnissen zu nutzen. Sie können zum Beispiel im selben Projekt zwei Mal die Klasse random.java anlegen. Sofern diese in zwei verschiedenen *Packages* liegen, können diese anhand ihres Pakets unterschieden werden.
 
 Es wird empfohlen Dateien innerhalb Ihres Projekts mittels Paketen zu strukturieren. Wenn Sie kein *Package* anlegen, werden Ihre Dateien im *Default Package* angelegt. Um nun ein weiteres Paket anzulegen, führen Sie den Shortcut zum Anlegen einer neuen Ressource aus (`ALT` + `SHIFT` + `N`) und navigieren Sie mit der `Pfeiltaste nach unten` solange bis der Fokus auf *Package* liegt. Wenn Sie diese Auswahl bestätigen öffnet sich ein *Wizard*, der Sie nach dem gewünschten Namen des *Packages* fragt. Geben Sie den Namen ein und bestätigen Sie mit `ENTER`.
@@ -117,9 +116,9 @@ Es öffnet sich der *Wizard* der Sie durch die Erstellung einer Klasse führt. P
 
 Die Klasse wird in dem *Project* und dem *Package* angelegt, das gerade selektiert ist. Im Formular haben Sie die Möglichkeit beides zu ändern. Sie können auch direkt beim Anlegen der Klasse das *Package* angeben, sollte dieses nicht mit dem aktuellen übereinstimmen. Geben Sie Ihrer Ressource einen Namen.
 
-Wenn Sie eine Klasse anlegen möchten, die den Startpunkt für Ihre Anwendung darstellt, steht Ihnen im nächsten Schritt ein Kontrollkästchen zur Verfügung, welches, wenn es aktiviert ist, für die Generierung der sogenannten main-Methode sorgt. Aktivieren Sie hierfür das Kontrollfeld *public static void main (String[] args)*  mit der Tastenkombination für *Bestätigen* `ALT`+`V`. Bestätigen Sie das ausgefüllte Formular.
+Wenn Sie eine Klasse anlegen möchten, die den Startpunkt für Ihre Anwendung darstellt, steht Ihnen im nächsten Schritt ein Kontrollkästchen zur Verfügung, welches, wenn es aktiviert ist, für die Generierung der sogenannten main-Methode sorgt. Aktivieren Sie hierfür das Kontrollfeld *public static void main (String[] args)* mit der Tastenkombination für *Bestätigen* `ALT`+`V`. Bestätigen Sie das ausgefüllte Formular.
 
-Sie können Ihre Klasse direkt beim Erstellen mit den dazugehörigen *Modifiers* ausstatten, indem Sie deren Kontrollfelder  unter der Option *Modifiers* aktivieren.
+Sie können Ihre Klasse direkt beim Erstellen mit den dazugehörigen *Modifiers* ausstatten, indem Sie deren Kontrollfelder unter der Option *Modifiers* aktivieren.
 
 Wenn Sie eine andere Klasse erweitern wollen, können Sie die Superklasse über den Namen spezifizieren. Tun Sie dies, indem Sie Paket und Namen über die Punktnotation angeben. Ist die Superklasse beispielsweise die Klasse *Object*, so lautet der Name *java.lang.Object*, da es sich um die Klasse *Object* im Paket *java.lang.* handelt.
 
@@ -129,7 +128,7 @@ Der Fokus liegt nach dem Anlegen im *Editor* auf Ihrer neu erstellten Klasse in 
 
 Alternativ zu dem Shortcut `ALT`+`SHIFT`+`N` gelangen Sie auch mit der Tastenkombination `CTRL`+`N` in den *Wizard* zum Anlegen neuer Ressourcen. Wenn Sie sich bereits in einem Java-Projekt befinden, stehen Ihnen direkt nach dem Drücken des Shortcuts die Optionen zum Anlegen aller möglichen Java-Ressourcen zur Verfügung.
 
-Diese Tastenkombination hat bei manchen Screenreadern den Vorteil, dass sie nicht von selbigem belegt wird. 
+Diese Tastenkombination hat bei manchen Screenreadern den Vorteil, dass sie nicht von selbigem belegt wird.
 
 ### Der Classpath
 Wird eine Java-Klasse instanziiert, muss die Java Virtual Machine (JVM) wissen, wo die kompilierte Klasse, also die zugehörige *.class*-Datei, liegt. Im *Classpath* stehen die Pfade zu den obersten *Packages* eines Java-Programms und zu eingebundenen *.jar*-Dateien. Die kompilierten *.class*-Dateien eines Java-Projekts sind in einer Ordnerstruktur abgelegt, die der Paketstruktur des Projekts gleicht. In *.jar*-Dateien sind die *.class*-Dateien ebenfalls in dieser Ordnerstruktur abgelegt. Dadurch weiß die JVM jederzeit, wo der kompilierte Code zu einer bestimmten Klasse liegt und kann diesen nutzen.
@@ -137,7 +136,7 @@ Wird eine Java-Klasse instanziiert, muss die Java Virtual Machine (JVM) wissen, 
 ### Kompilieren und Fehlerbehebung
 Dieser Abschnitt beschäftigt sich nicht mit *Debugging*. Stattdessen soll hier auf das Beheben von kleineren Kompilierfehlern eingegangen werden.
 
-Markierungen in Form von roten Unterringelungen für *Errors* (Fehler) und gelben Unterringelungen für *Warnings*  (Warnungen) weisen sehende Menschen frühzeitig auf Kompilierfehler hin. Dies ist nur möglich, da Ihr Code fortlaufend durch Eclipse in Zwischencode für die JVM (Jave Virtual Machine) übersetzt wird.
+Markierungen in Form von roten Unterringelungen für *Errors* (Fehler) und gelben Unterringelungen für *Warnings* (Warnungen) weisen sehende Menschen frühzeitig auf Kompilierfehler hin. Dies ist nur möglich, da Ihr Code fortlaufend durch Eclipse in Zwischencode für die JVM (Jave Virtual Machine) übersetzt wird.
 
 Da diese Markierungen in erster Linie visuell sind, wird blinden oder sehbehinderten Programmierern empfohlen, regelmäßig, vorallem am Ende einer Programmierperiode, von dem Shortcut `CTRL`+`.` gebrauch zu machen, um zur nächsten Warnung oder zum nächsten Fehler zu springen. Der Fokus Ihres Screenreaders springt damit sofort zum nächsten Fehler oder zur nächsten Warnung in der aktuellen Java-Datei und liest Ihnen die unterringelte Stelle vor. Wenn JAWS die Fehlerzeile nicht sofort vorließt, so drücken Sie einmal `Pfeiltaste nach oben` und dann wieder `Pfeiltaste nach unten`. Allerdings ist es zu Empfehlen direkt nach dem Drücken von `CTRL` + `.` für JAWS-Nutzer `INSERT` + `PageDown` zu drücken, um die Fehlerhinweise auslesen zu können. Die Schnellhilfe wird nur mit dem Anspringen via `CTRL` + `.` vorgelesen und nicht mehr, wenn die Pfeiltasten zum Einsatz kommen.
 
@@ -165,18 +164,17 @@ Die meisten Menschen schätzen an Entwicklungsumgebungen die programmiersprachen
 
 Schreiben Sie im Quellcode-*Editor* von Eclipse
 
-	syso
+syso
 
-dann `CTRL`+`Leertaste`. Wenn Sie diese Kombination zum ersten Mal ausführen, steht Ihnen bis zur Eclipse-Version Luna die Auswahl *Enable Smart Code Completion* zur Verfügung. Wählen Sie diese aus. Da wird Ihnen zukünftig die Eingabe des Strings 
+dann `CTRL`+`Leertaste`. Wenn Sie diese Kombination zum ersten Mal ausführen, steht Ihnen bis zur Eclipse-Version Luna die Auswahl *Enable Smart Code Completion* zur Verfügung. Wählen Sie diese aus. Da wird Ihnen zukünftig die Eingabe des Strings
 
-	syso
+syso
 
-gefolgt von dem Shortcut zur Codevervollständigung  `CTRL`+`Leertaste` 
+gefolgt von dem Shortcut zur Codevervollständigung `CTRL`+`Leertaste`
 
-sofort zu 
+sofort zu
 
-
-	System.out.println(); 
+System.out.println();
 
 komplettiert.
 
@@ -194,7 +192,7 @@ Sie sollten nun eine gute Vorstellung davon haben, was man mit *Code Assist* all
 Eclipse bietet ihnen viele kleine Features, die dafür gemacht wurden, Ihren Programmieralltag zu vereinfachen. Die meisten sind trivial, werden aber häufig genutzt und sorgen für eine enorme Produktivitätssteigerung.
 
 ### Gedächtnisstütze für Keyboard-Shortcuts
-In Eclipse müssen Sie sich wirklich nur an eine Tastenkombination erinnern, nämlich  `CTRL`+`SHIFT`+`L`. Diese zeigt Ihnen eine alphabetisch sortierte Liste aller Tastaturbefehle in der Eclipse IDE an, welche auch sofort fokussiert ist.
+In Eclipse müssen Sie sich wirklich nur an eine Tastenkombination erinnern, nämlich `CTRL`+`SHIFT`+`L`. Diese zeigt Ihnen eine alphabetisch sortierte Liste aller Tastaturbefehle in der Eclipse IDE an, welche auch sofort fokussiert ist.
 
 ### Code Assist
 Dieses Tutorial enthält einen ganzen Abschnitt über die *Code Assist*-Funktion. Diesen finden Sie im Kapitel 3.9 Autovervollständigung mit *Code Assist* nutzen.
@@ -225,8 +223,8 @@ Diese Funktion von Eclipse soll nur am Rande erwähnt werden. Wenn Sie in der Me
 #### To-Dos verfolgen
 Während des Schreibens von Programmen kommen Ihnen sicherlich immer wieder Dinge in den Kopf, die Sie zu einem späteren Zeitpunkt noch umsetzen möchten. In der Industrie herrscht der Standard, dass solche unerledigten Dinge mittels
 
-	// TODO: Aufgabenbeschreibung
-	
+// TODO: Aufgabenbeschreibung
+
 gekennzeichnet werden. Eclipse macht Ihnen Ihren Programmieralltag an dieser Stelle leichter, indem es Ihren Quellcode nach solchen Kommentaren durchsucht und diese in einem eigenen Fenster namens *Tasks* bündelt. Dieses erreichen Sie in erster Instanz nur über die Menüleiste, via *Window* bei *Show View* finden Sie *Task*. Wenn Sie das Fenster einmal geöffnet haben, können Sie es über den Shortcut, der zwischen den Ansichten wechselt, also `CTRL`+`F7`, ansteuern. Mit den Pfeiltasten kommen Sie zur gewünschten Ansicht. Die *Tasks*-Ansicht erscheint unter dem *Editor*-Fenster als einer der Reiter auf der Höhe der *Console*, wo auch das *Problems*-Fenster angesiedelt ist. Die einzelnen *Tasks* können mit den Pfeiltasten ausgewählt werden. Drücken Sie `ENTER`, springt Ihr Cursor direkt in die Zeile des jeweiligen *Tasks*.
 
 Die *Tasks-View* wird erst nach dem Kompilieren des Programms aktualisiert und die *Tasks* erschienen in der Liste.
@@ -250,9 +248,8 @@ Wäre keine der beiden Klassen innerhalb eines Pakets angesiedelt, würden die B
 
 Pakete erlauben auch eine logische organisatorische Abstraktion für verwandte Gruppen von Java-Klassen und Interfaces. Um ein Paket für Ihre Klasse oder Schnittstelle anzugeben, muss die erste Zeile Ihrer Java-Datei wie folgt lauten:
 
-	package [package.name];
-	
-	
+package [package.name];
+
 Dieses Tutorial wird hier nicht weiter auf Pakete als Sprachmerkmale eingehen. Es gibt viele Ressourcen, online und anderswo, die Ihnen helfen können, diesen Aspekt der Programmiersprache Java zu verstehen. Sollten Sie absoluter Neuling auf diesem Gebiet sein, kann eine Lösung sein, Ihre Lieblings-Suchmaschine einmal mit dieser Frage zu bemühen. Sollten Sie gezielt mit Paketen arbeiten, wird empfohlen, sich vorher mit den Einschränkungen, die dieses Sprachmerkmal mit sich bringt, vertraut zu machen.
 
 Vielmehr sollen die paketbezogenen Funktionalitäten von Eclipse besprochen werden. Die erste ist der *Package Explorer*. Der *Package Explorer* präsentiert Ihnen Ihre Projekte mit dem Fokus auf deren Java-Paketstruktur. Sollten Sie Eclipse schon einmal genutzt haben, ist Ihnen vielleicht aufgefallen, dass neu angelegte Klassen in Eclipse nicht einfach irgendwo, sondern im sogenannten *default package* auftauchen, welches einen Knotenpunkt in der Hierarchie des *Package Explorers* darstellt. Geben Sie nämlich kein Paket für Ihre neue Java-Klasse an, wird es mit allen anderen nicht verpackten Klassen in diesem Standardpaket gruppiert.
@@ -269,17 +266,15 @@ Angenommen, Sie haben Ihr Projekt in Eclipse angelegt, aber wollen die einzelnen
 
 1. Der Weg über die Menüleiste
 
-	Springen Sie in die Menüleiste der Eclipse IDE zu *File* und wählen Sie *Import* aus der Liste aus. Nun öffnet sich das *Import*-Fenster. Der Fokus liegt auf einem Textfeld mit dem Text "*type filter text*". Dieses dient der Eingabe des Suchtextes zur Filterung der möglichen zu importierenden Typen von Quellen. Tippen Sie *File* ein, um die Ergebnisliste zu minimieren. Drücken Sie `Pfeiltaste nach unten`, um in die Auswahlliste zu springen und wählen Sie *File System*. Bestätigen Sie Ihre Auswahl. Es öffnet sich nun ein Fenster, in welchem Sie, unter *From directory*, die gewünschte Datei auswählen und zu Ihrem Eclipse-Projekt hinzufügen können. Statt einer Datei können Sie auch ein ganzes Verzeichnis auswählen. Sobald Sie einen Ordner ausgewählt haben, haben Sie die Wahl, ganze Verzeichnisse oder nur deren Unterkomponenten zu importieren. Es öffnet sich eine Tabelle mit den Inhalten des selektierten Ordners. Um ganze Ordner zu importieren, aktivieren Sie dessen Markierungsfeld. Möchten Sie an dieser Stelle bestimmte Dateien anstelle von ganzen Verzeichnissen auswählen, wählen Sie statt der übergeordneten Komponente dessen gewünschten Inhalt. Jede dieser Dateien kann einzeln ausgewählt werden, genau wie vorher die Verzeichnisse. Des Weiteren haben Sie in diesem Fenster die Möglichkeit unter *Into folder:* das jeweilige *Project*, sowie das *Package* oder, anders formuliert, das Verzeichnis zu spezifizieren, in welches die Datei importiert werden soll. Stellen Sie sicher, dass Sie in den richtigen Ordner importieren und dass die Optionen so eingestellt sind, wie Sie sie wünschen, und bestätigen Sie mit der *Finish*-Taste.
-
+Springen Sie in die Menüleiste der Eclipse IDE zu *File* und wählen Sie *Import* aus der Liste aus. Nun öffnet sich das *Import*-Fenster. Der Fokus liegt auf einem Textfeld mit dem Text "*type filter text*". Dieses dient der Eingabe des Suchtextes zur Filterung der möglichen zu importierenden Typen von Quellen. Tippen Sie *File* ein, um die Ergebnisliste zu minimieren. Drücken Sie `Pfeiltaste nach unten`, um in die Auswahlliste zu springen und wählen Sie *File System*. Bestätigen Sie Ihre Auswahl. Es öffnet sich nun ein Fenster, in welchem Sie, unter *From directory*, die gewünschte Datei auswählen und zu Ihrem Eclipse-Projekt hinzufügen können. Statt einer Datei können Sie auch ein ganzes Verzeichnis auswählen. Sobald Sie einen Ordner ausgewählt haben, haben Sie die Wahl, ganze Verzeichnisse oder nur deren Unterkomponenten zu importieren. Es öffnet sich eine Tabelle mit den Inhalten des selektierten Ordners. Um ganze Ordner zu importieren, aktivieren Sie dessen Markierungsfeld. Möchten Sie an dieser Stelle bestimmte Dateien anstelle von ganzen Verzeichnissen auswählen, wählen Sie statt der übergeordneten Komponente dessen gewünschten Inhalt. Jede dieser Dateien kann einzeln ausgewählt werden, genau wie vorher die Verzeichnisse. Des Weiteren haben Sie in diesem Fenster die Möglichkeit unter *Into folder:* das jeweilige *Project*, sowie das *Package* oder, anders formuliert, das Verzeichnis zu spezifizieren, in welches die Datei importiert werden soll. Stellen Sie sicher, dass Sie in den richtigen Ordner importieren und dass die Optionen so eingestellt sind, wie Sie sie wünschen, und bestätigen Sie mit der *Finish*-Taste.
 
 2. Der Weg über das Kontextmenü im *Package Explorer*
 
-	Springen Sie zuerst mit `ALT`+`SHIFT`+`Q`, `P` in den *Package Explorer*. Wählen Sie das richtige Projekt und drücken Sie dann die Kontextmenü-Taste. Sie können das Projekt auch später, wie bereits vorher erwähnt, im *Import*-Dialog noch ändern. Wählen Sie aus der sich öffnenden Liste *Import*. Das *Import*-Fenster wird geöffnet. Ihnen stehen die selben Eingabemöglichkeiten wie auch bei der Auswahl über die Menüleiste zur Verfügung. Gehen Sie ab jetzt genau wie auch dort beschrieben vor.
-
+Springen Sie zuerst mit `ALT`+`SHIFT`+`Q`, `P` in den *Package Explorer*. Wählen Sie das richtige Projekt und drücken Sie dann die Kontextmenü-Taste. Sie können das Projekt auch später, wie bereits vorher erwähnt, im *Import*-Dialog noch ändern. Wählen Sie aus der sich öffnenden Liste *Import*. Das *Import*-Fenster wird geöffnet. Ihnen stehen die selben Eingabemöglichkeiten wie auch bei der Auswahl über die Menüleiste zur Verfügung. Gehen Sie ab jetzt genau wie auch dort beschrieben vor.
 
 3. Copy und Paste aus dem Dateisystem
 
-	Kopieren Sie die gewünschte Datei in Ihrem Dateisystem, ganz einfach mit `CTRL`+`C` oder über das Kontextmenü. Gehen Sie in die Eclipse IDE und wählen Sie das Projekt sowie das Paket aus, in welches Sie diese Datei importieren wollen und drücken Sie Einfügen, also `CTRL`+`V`. Die Datei wird nun in das Projekt importiert.
+Kopieren Sie die gewünschte Datei in Ihrem Dateisystem, ganz einfach mit `CTRL`+`C` oder über das Kontextmenü. Gehen Sie in die Eclipse IDE und wählen Sie das Projekt sowie das Paket aus, in welches Sie diese Datei importieren wollen und drücken Sie Einfügen, also `CTRL`+`V`. Die Datei wird nun in das Projekt importiert.
 
 ### Archive importieren
 Das Importieren eines Archivs ist dem Importieren einer Datei sehr ähnlich. Öffnen Sie das Kontextmenü Ihres Projekts im Paket-Explorer und klicken Sie auf *Import*. Dieses Mal verwenden Sie *Archive File* als Ihren Filtertext und wählen die Option *Archive File*. Bestätigen Sie Ihre Auswahl.
@@ -326,7 +321,6 @@ Wie Sie bereits im Laufe dieses Tutorials erfahren konnten, bietet Eclipse die M
 
 Um von einer beliebigen Stelle in der Eclipse IDE in den *Editor* zu springen, nutzen Sie die Taste `F12`. In Einzelfällen funktioniert diese Schnellnavigation nicht, dann muss man explizit in die *Editor*-Ansicht navigieren.
 
-
 #### Zwischen den offenen Editor-Fenstern navigieren
 Während der Entwicklung eines Programmes öffnen wir für gewöhnlich viele *Editor*-Fenster. Jedesmal, wenn wir eine Klasse aus dem *Package Explorer* auswählen, öffnet Eclipse diese automatisch in einem neuen Fenster. Somit können all diese geöffneten *Editor*-Fenster bis sie aktiv geschlossen werden, auch erreicht werden. Die Eclipse IDE bietet Ihnen im Großen und Ganzen drei Möglichkeiten, um komfortabel zwischen den offenen *Editor*-Fenstern zu navigieren.
 
@@ -337,7 +331,7 @@ Der Shortcut, um offene Editoren anzeigen zu lassen, ist in der Standardeinstell
 Wenn Sie stattdessen die Tastenkombination `CTRL`+`F6` oder `CTRL`+`SHIFT`+`F6` nutzen, zeigt dies auch offene Editoren an, wobei der Wechsel zwischen den Fenstern sofort nach loslassen der `CTRL`-Taste erfolgt.
 
 #### Zu einer bestimmten Zeile im Editor springen
-Um in eine bestimmte Zeile im *Editor*-Fenster zu springen, muss dieses fokussiert sein. Nutzen Sie den Shortcut `CTRL`+`L`, der das Fenster *go to line*  öffnet, geben Sie die gewünschte Zeilennummer ein und bestätigen Sie Ihre Eingabe.
+Um in eine bestimmte Zeile im *Editor*-Fenster zu springen, muss dieses fokussiert sein. Nutzen Sie den Shortcut `CTRL`+`L`, der das Fenster *go to line* öffnet, geben Sie die gewünschte Zeilennummer ein und bestätigen Sie Ihre Eingabe.
 
 ### Navigation in der Console
 #### Aufbau der *Console*-Ansicht
@@ -350,9 +344,9 @@ Es handelt sich um *Clear Console*, *Display Selected Console*, *Open Console*, 
 Sollten Sie Ihre *Console* aus irgendeinem Grund einmal geschlossen haben, können Sie diese mittels des Shortcuts um in die Konsole zu springen, `ALT`+`SHIFT`+`Q`,`C`, erneut öffnen. Egal ob eine *Console* geöffnet ist oder nicht, mit diesem Shortcut springen Sie direkt hinein.
 
 #### Weitere Console-Fenster öffnen
-In manchen Fällen kann es nötig sein, eine zweite *Console* zu öffnen. Hier kommt der  JAWS-Cursor ins Spiel.
+In manchen Fällen kann es nötig sein, eine zweite *Console* zu öffnen. Hier kommt der JAWS-Cursor ins Spiel.
 Springen Sie zuerst in die *Console*, um schon in der Nähe des Bereichs zu sein.
-Aktivieren Sie den JAWS-Cursor, in dem Sie `Insert`+`-` auf dem Nummernpad drücken. Sie hören nun "ziehe JAWS zu PC". Nun können Sie mit den Pfeiltasten den Cursor bedienen. 
+Aktivieren Sie den JAWS-Cursor, in dem Sie `Insert`+`-` auf dem Nummernpad drücken. Sie hören nun "ziehe JAWS zu PC". Nun können Sie mit den Pfeiltasten den Cursor bedienen.
 
 Nutzen Sie jetzt die Pfeiltasten, um etwas nach oben und rechts zu navigieren. Leider sind die einzelnen *Icons* in der Leiste der *Console* standardmäßig nicht beschriftet. Bleiben Sie an dieser Stelle probierfreudig. Mit der Taste `/` können Sie einen Linksklick auf ein Element ausführen. Wenn Ihnen JAWS das Wort "Kontextmenü" mitteilt, befinden Sie sich in dem Drop-Down, in welchem Sie eine neue *Console* öffnen können. Navigieren Sie mit den Pfeiltasten zu *New Console View* und drücken Sie `ENTER`. Sie haben nun eine zweite *Console* geöffnet.
 
@@ -365,49 +359,47 @@ Sollte Ihr Programm eine *Exception* ausgelöst haben, stellt Eclipse diese Ausg
 
 Sollte beispielsweise eine *IndexOutOfBoundsException* geworfen werden, würde Ihr Screenreader in etwa verlauten lassen:
 
-	Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
-	at hello.world.Main.foo(Main.java:23)
-	at hello.world.Main.main(Main.java:18)
-	
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
+at hello.world.Main.foo(Main.java:23)
+at hello.world.Main.main(Main.java:18)
+
 Diese Ausgabe möchte ich Ihnen nun Zeile für Zeile erläutern.
 
 In Zeile 1:
 
-	Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
-	
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
+
 teilt Ihnen Eclipse mit, dass im Haupt-Thread Ihrer Anwendung, im Thread *main*, eine *ArrayIndexOutOfBoundsException* an der Stelle 2 geworfen wurde.
 
 In Zeile 2:
 
-	at hello.world.Main.foo(Main.java:23)
+at hello.world.Main.foo(Main.java:23)
 
 informiert Sie Ihre IDE, dass diese Exception in der Klasse mit dem Namen Main, des Paketes namens hello.world, in der mit foo benannten Methode, in Zeile 23 geworfen wurde. Der letzte Teil, nämlich
 
-	(Main.java:23)
-	
+(Main.java:23)
+
 ist der Link in Zeile 23.
 
 Zeile 3:
 
-		at hello.world.Main.main(Main.java:18)
+at hello.world.Main.main(Main.java:18)
 
 erläutert, dass die Ausnahme in der Zeile 18, der Klasse mit dem Namen Main, welche sich in einem Paket namens hello.world befindet, in der mit main benannten Methode, in Zeile 18 ausgelöst wurde.
 
 Der hintere Teil ist wiederum der Link zur Zeile, also
 
-	(Main.java:23)
-
+(Main.java:23)
 
 Mit diesem Wissen stehen Ihnen folgende Möglichkeiten zur Verfügung, um an die angegebenen Stellen zu gelangen.
 
 1. Nutzung des Shortcut *go to line*
 
-	Verwenden Sie den Shortcut *go to line*, also `CTRL`+`L` und geben Sie die Zeilennummer ein, in welcher die *Exception* entstand oder ausgelöst wurde. Sie springen nun direkt zurück in den *Editor* in die angegebene Zeile. Der Fokus liegt am Anfang der Zeile.
-	
-2. Nutzung des JAWS-Cursor 
+Verwenden Sie den Shortcut *go to line*, also `CTRL`+`L` und geben Sie die Zeilennummer ein, in welcher die *Exception* entstand oder ausgelöst wurde. Sie springen nun direkt zurück in den *Editor* in die angegebene Zeile. Der Fokus liegt am Anfang der Zeile.
 
-	Aktivieren Sie den JAWS-Cursor, navigieren Sie mit den Pfeiltasten an die verlinkte Stelle und lösen Sie einen Linksklick aus. Sie springen nun direkt zurück in den *Editor* in die angegebene Zeile. Der Fokus liegt im Gegensatz zur Möglichkeit 1 am Ende des Ausdrucks, der die Ausnahme auslöste.
+2. Nutzung des JAWS-Cursor
 
+Aktivieren Sie den JAWS-Cursor, navigieren Sie mit den Pfeiltasten an die verlinkte Stelle und lösen Sie einen Linksklick aus. Sie springen nun direkt zurück in den *Editor* in die angegebene Zeile. Der Fokus liegt im Gegensatz zur Möglichkeit 1 am Ende des Ausdrucks, der die Ausnahme auslöste.
 
 ### Navigation in der Problems-View
 Ein Weg zu *Problems* ist der Shortcut zum Öffnen der Listenansicht aller *Views*, also `CTRL`+`SHIFT`+`F7`. Wählen Sie in der Ansicht mit den Pfeiltasten *Problems* aus.
@@ -417,35 +409,33 @@ Alternativ steht Ihnen der Shortcut, um in *Problems* zu springen, nämlich `ALT
 #### Wie ist die Problems-View aufgebaut?
 Die Ansicht der *Problems* ist eine schlichte Baumansicht mit allen Fehlern und allen Warnungen aus allen geöffneten Projekten. Die Probleme sind nach Typ strukturiert. Hieraus resultiert ein Baum pro Typ, also je nach Vorkommnis in all den in der IDE geöffneten Projekten maximal zwei Bäume. Hierfür ist einer für *Warnings* und der andere für *Error* reserviert.
 
-Die Navigation in dieser Ansicht gestaltet sich intuitiv. Mit der Taste `Pfeiltaste nach rechts` klappen Sie die jeweilige Baumansicht auf. Mit `Pfeiltaste nach oben` oder `Pfeiltaste nach unten` navigieren Sie durch die Warnungen beziehungsweise durch die Fehler. Mit `ENTER` gelangen Sie direkt in die Zeile, hinter das Auftreten des jeweiligen Fehlers beziehungsweise der jeweiligen Warnung. 
+Die Navigation in dieser Ansicht gestaltet sich intuitiv. Mit der Taste `Pfeiltaste nach rechts` klappen Sie die jeweilige Baumansicht auf. Mit `Pfeiltaste nach oben` oder `Pfeiltaste nach unten` navigieren Sie durch die Warnungen beziehungsweise durch die Fehler. Mit `ENTER` gelangen Sie direkt in die Zeile, hinter das Auftreten des jeweiligen Fehlers beziehungsweise der jeweiligen Warnung.
 
 ## Erstellen einer Hello-World-Applikation
 ### Anlegen von Java-Dateien
-Erstellen Sie ein neues Projekt  und geben Sie dieser den Namen eclipseTutorial, für eine Hilfestellung siehe Kapitel 3.4 Ein Projekt anlegen. Legen Sie im neu angelegten Projekt eine neue Java-Klasse an und geben Sie ihr den Namen *Main*, wie im Kapitel 3.6 Eine Klasse erstellen* beschrieben. Sorgen Sie dafür, dass die Klasse, die Ihnen erstellt wird, bereits eine *main*-Methode enthält. In Ihrem *Workspace* wurde nun eine Datei mit dem Namen *Main.java* erstellt.
+Erstellen Sie ein neues Projekt und geben Sie dieser den Namen eclipseTutorial, für eine Hilfestellung siehe Kapitel 3.4 Ein Projekt anlegen. Legen Sie im neu angelegten Projekt eine neue Java-Klasse an und geben Sie ihr den Namen *Main*, wie im Kapitel 3.6 Eine Klasse erstellen* beschrieben. Sorgen Sie dafür, dass die Klasse, die Ihnen erstellt wird, bereits eine *main*-Methode enthält. In Ihrem *Workspace* wurde nun eine Datei mit dem Namen *Main.java* erstellt.
 
 ### Zeilenweise navigieren
 Navigieren Sie nun zu Zeile 6. Dafür haben Sie zwei Möglichkeiten. Entweder Sie nutzen die Pfeiltasten oder Sie wählen den Shortcut *go to line*, `CTRL`+`L` und geben in dem sich nun öffnenden Formular die Zeilennummer 6 an.
 
 In Zeile 6 befindet sich ein Kommentar, der automatisch beim Anlegen der Java-Datei mit der *main*-Methode generiert wurde. Der Kommentar lautet
 
-	//TODO Auto-generated method stub
+//TODO Auto-generated method stub
 
 ### Codevervollständigung
 Ersetzen Sie den Kommentar durch einen *print*-Befehl. Markieren Sie hierfür den Kommentar und tippen Sie
 
-
-	syso
+syso
 
 dann `CTRL`+`Leertaste`. Wenn Sie diese Kombination zum ersten Mal ausführen, steht Ihnen bis zur Version Luna von Eclipse die Auswahl *Enable Smart Code Completion* zur Verfügung. Wählen Sie diese aus. Damit wird Ihnen zukünftig die Eingabe des Strings
 
-	syso
+syso
 
-gefolgt von dem Shortcut zur *Codevervollständigung*  `CTRL`+`Leertaste`, 
+gefolgt von dem Shortcut zur *Codevervollständigung* `CTRL`+`Leertaste`,
 
-sofort zu 
+sofort zu
 
-
-	System.out.println(); 
+System.out.println();
 
 komplettiert.
 
@@ -455,7 +445,7 @@ Der Fokus liegt nun in den Klammern, also bei den Parametern des Aufrufens der *
 
 Ergänzen Sie den Methodenaufruf mit dem String
 
-	"Hello World!"
+"Hello World!"
 
 Ihr Programm ist jetzt fertig.
 
@@ -465,7 +455,7 @@ Der Shortcut um *zur nächsten Warnung oder zum nächsten Fehler springen*, `CTR
 ### Programmausführung
 Nun können Sie Ihr Programm ausführen. Nutzen Sie hierfür den Shortcut *Run* `CTRL`+`F11`. Ihr Programm wird beim Ausführen dieses Befehls, genau wie beim Speichern mit `CTRL`+`S`, als Java-Datei in Ihrem *Workspace* gespeichert. Darauf weist Sie der zu bestätigende Systemdialog *Save and Launch* hin.
 
-### Ansicht wechseln  
+### Ansicht wechseln
 Wechseln Sie zwischen den Ansichten, mit `CTRL`+`F7`, um zur Ausgabe Ihres Programms in der Console zu gelangen. Halten Sie `CTRL` gedrückt. Es wird eine Liste aller *Views* geöffnet, durch welche Sie mit `Pfeiltaste nach unten`/`Pfeiltaste nach oben` navigieren können. Wählen Sie *Console* aus.
 
 Alternativ gelangen Sie auch mit dem Shortcut zum in die *Console* springen, also `CTRL`+`SHIFT`+`Q`, dann `C`, direkt in die *Console*.
@@ -474,34 +464,33 @@ Ihr Screenreader sollte nun verlauten lassen: Hello World!
 
 Herzlichen Glückwunsch zu Ihrer ersten Hello-World-Applikation, erstellt in der Eclipse IDE mit dem Screenreader JAWS.
 
-
 ### Fehlerbehebung
 Lassen Sie uns nun einen Fehler provozieren. Springen Sie hierfür zurück in den *Editor* mittels `F12` oder drücken Sie den Hotkey um zwischen den Ansichten zu wechseln, also `CTRL`+`F7` und halten Sie `CTRL` gedrückt. Es ist eine Liste aller *Views* geöffnet, durch welche Sie mit `Pfeiltaste nach unten`/`Pfeiltaste nach oben` navigieren können. Wählen Sie *Editor* aus.
 
 Springen Sie mittels *go to line*, also `CTRL`+`L`, in Zeile 6 und löschen Sie das Semikolon hinter dem *print*-Befehl, sodass folgende Syntax übrig bleibt
-	
-	System.out.println("Hello World!")
-	
+
+System.out.println("Hello World!")
+
 und führen Sie das Programm erneut mit *Run* aus. Eclipse warnt Sie zwar schon, dass es Fehler im existierenden Projekt gibt, führen Sie es dennoch aus und springen Sie zurück in die *Console*, mit dem Shortcut `CTRL`+`⇧`+`Q`,`C`. Dort sollte nun folgende Ausgabe stehen:
 
-	Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
-	Syntax error, insert ";" to complete Statement
+Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+Syntax error, insert ";" to complete Statement
 
-	at hello.world.Main.main(Main.java:7)
-	
+at hello.world.Main.main(Main.java:7)
+
 Um den Fehler zu finden, haben Sie jetzt mehrere Möglichkeiten, davon sind zwei aufgrund der schnellen Anwendung für Screenreadernutzer zu empfehlen:
 
-1. Fehlersuche im *Editor* 
+1. Fehlersuche im *Editor*
 
-	Drücken Sie `CTRL`+`.`, um zum nächsten Fehler zu springen  und direkt im Anschluss `INSERT`+`PageDown`, um sich den Fehler vorlesen zu lassen. `INSERT` + `PageDown` ist ein Shortcut für JAWS, um die Statusleiste auszulesen.
-	
+Drücken Sie `CTRL`+`.`, um zum nächsten Fehler zu springen und direkt im Anschluss `INSERT`+`PageDown`, um sich den Fehler vorlesen zu lassen. `INSERT` + `PageDown` ist ein Shortcut für JAWS, um die Statusleiste auszulesen.
+
 2. Fehlersuche in der *Problems*-Ansicht
 
-	Sobald Sie ihr Programm gespeichert haben aktualisiert sich in der Regel die *Problems*-Ansicht. Springen Sie in diese mittels ``ALT`+`SHIFT`+`Q`, `X`. Dort finden Sie das aufklappbare Listenelement *Errors*. Wenn Sie mit `Pfeiltaste nach rechts` dieses Listenelement ausklappen, erhalten Sie die Fehlermeldung: 
+Sobald Sie ihr Programm gespeichert haben aktualisiert sich in der Regel die *Problems*-Ansicht. Springen Sie in diese mittels ``ALT`+`SHIFT`+`Q`, `X`. Dort finden Sie das aufklappbare Listenelement *Errors*. Wenn Sie mit `Pfeiltaste nach rechts` dieses Listenelement ausklappen, erhalten Sie die Fehlermeldung:
 
-	'Syntax error, insert ";" to complete Statement'
-	
-	und weitere Zusatzinformationen wie Dateinamen und Zeilennummer. Betätigen Sie die `ENTER`-Taste, während die Fehlermeldung fokussiert ist, um  direkt in den *Editor* in die Fehlerzeile zu springen.
+'Syntax error, insert ";" to complete Statement'
+
+und weitere Zusatzinformationen wie Dateinamen und Zeilennummer. Betätigen Sie die `ENTER`-Taste, während die Fehlermeldung fokussiert ist, um direkt in den *Editor* in die Fehlerzeile zu springen.
 
 Die Baumansicht in der *Problems-View* wird erst nach dem Kompilieren des Programms aktualisiert und durch JAWS vorgelesen.
 
@@ -509,9 +498,9 @@ Die *Problems*-Ansicht beinhaltet allerdings nur Probleme die zur Kompilierzeit 
 
 Hierfür legen Sie ein *Array* an. Springen Sie mit *go to line*, also `CTRL`+`L` zu Zeile 6. Verschieben Sie Ihre Ausgabe von "Hello World!" mit Hilfe der `ENTER`-Taste und legen Sie in der Zeile ein *Array* an. Lösen Sie eine *ArrayIndexOutOfBoundsException* in der darauffolgenden Zeile aus. Versuchen Sie z.B auf den Index 2 zuzugreifen, wobei Ihr *Array* nur 2 Stellen, also die Indizes 0 und 1, besitzt. Nutzen Sie hierfür folgende Syntax
 
-	int []a = new int [2];
-	System.out.println(a[2]);
-	
+int []a = new int [2];
+System.out.println(a[2]);
+
 Wenn Sie Ihr Programm nun mit *Run*, also `CTRL`+`F11`, starten, wird eine *ArrayIndexOutOfBoundsException* geworfen.
 
 Springen Sie zurück in die *Console* mittels `ALT`+`SHIFT`+`Q`, `C`. Ihnen wird nun die *Exception* vorgelesen. Nun können Sie, wie bereits zuvor beschrieben, über die *Console* zur genannten Zeile springen und Ihren Fehler beheben.
@@ -527,12 +516,12 @@ Statt Eclipse jedesmal zu schließen, wenn sich Ihr Programm nicht wie vorgesehe
 
 Lassen Sie uns zuerst dafür sorgen, dass unser kleines Hello-World-Programm endlos durchläuft.
 
-Springen Sie in die letzte Zeile Ihrer *main*-Methode der Klasse Main. Nutzen Sie hierfür den Weg über die Ansicht der *Outline*.  Die *Outline-View* zeigt Ihnen das Gerüst der aktuellen Klasse an, mit all ihren Variablen und Methoden. Der Shortcut, um in die *Outline* zu gelangen, ist `ALT`+`SHIFT`+`Q`, `O`. Wir nutzen nun allerdings nicht die *Outline-View*, sondern die *Quick Outline*, welche Sie mit `CTRL`+`O` öffnen. Dadurch erscheint ein Fenster mit der *Outline* der aktuellen Klasse als Listenansicht. Diese liegt als neue Ebene über dem *Editor*-Fenster und schließt sich nach Ausführen der gewünschten Aktion von selbst. Suchen Sie die *main*-Methode aus dieser Liste heraus und bestätigen Sie Ihre Auswahl. Der Fokus liegt nun auf Ihrer *main*-Methode, hinter deren Namen. Um schnell an das Ende der Methode zu gelangen, kann es nützlich sein, erst eine Zeile nach unten zu gehen und dann *Go to matching bracket* mit `SHIFT`+`CTRL`+`P` direkt hinter die schließende Klammer der Methode zu springen. Mit `ALT`+`Pfeiltaste nach unten` verschieben Sie einfach die schließende Klammer der Methode eine Zeile nach unten und haben darüber Platz für Ihre Endlosschleife. Sie können auch einfach eine Zeile höher gehen und `ENTER` drücken. Wie Sie die benötigte Zeile einfügen, bleibt ganz Ihrer Vorliebe überlassen. Erweitern Sie nun die *main*-Methode um eine Endlosschleife.
+Springen Sie in die letzte Zeile Ihrer *main*-Methode der Klasse Main. Nutzen Sie hierfür den Weg über die Ansicht der *Outline*. Die *Outline-View* zeigt Ihnen das Gerüst der aktuellen Klasse an, mit all ihren Variablen und Methoden. Der Shortcut, um in die *Outline* zu gelangen, ist `ALT`+`SHIFT`+`Q`, `O`. Wir nutzen nun allerdings nicht die *Outline-View*, sondern die *Quick Outline*, welche Sie mit `CTRL`+`O` öffnen. Dadurch erscheint ein Fenster mit der *Outline* der aktuellen Klasse als Listenansicht. Diese liegt als neue Ebene über dem *Editor*-Fenster und schließt sich nach Ausführen der gewünschten Aktion von selbst. Suchen Sie die *main*-Methode aus dieser Liste heraus und bestätigen Sie Ihre Auswahl. Der Fokus liegt nun auf Ihrer *main*-Methode, hinter deren Namen. Um schnell an das Ende der Methode zu gelangen, kann es nützlich sein, erst eine Zeile nach unten zu gehen und dann *Go to matching bracket* mit `SHIFT`+`CTRL`+`P` direkt hinter die schließende Klammer der Methode zu springen. Mit `ALT`+`Pfeiltaste nach unten` verschieben Sie einfach die schließende Klammer der Methode eine Zeile nach unten und haben darüber Platz für Ihre Endlosschleife. Sie können auch einfach eine Zeile höher gehen und `ENTER` drücken. Wie Sie die benötigte Zeile einfügen, bleibt ganz Ihrer Vorliebe überlassen. Erweitern Sie nun die *main*-Methode um eine Endlosschleife.
 
 Eine mögliche Syntax ist:
-	while (true) {
-		System.out.		println("La la la!");
-	}
+while (true) {
+System.out. println("La la la!");
+}
 
 Wenn Sie nun mit `CTRL`+`F11` Ihr Programm starten, wird dieses sich nicht von alleine beenden. Im Normalfall wundern Sie sich vielleicht, warum Ihr Programm nicht die gewünschte Ausgabe erzeugt, Sie werden sich aber nicht sofort bewusst sein, dass Sie sich in einer Endlosschleife befinden. Springen Sie in die *Console* (`ALT`+`SHIFT`+`Q`, `C`), um die Ausgabe Ihrer Applikation zu überprüfen. Ihr Screenreader sollte nun ununterbrochen "La la la!" verlauten lassen. Eine Navigation durch die Ausgaben der *Console* ist nur schwer möglich, da diese fortlaufend aktualisiert wird.
 
