@@ -5,8 +5,7 @@ author: amidisturbing
 post_date: 2017-06-23 21:26:59
 post_excerpt: ""
 layout: page
-permalink: >
-  http://www.amidisturbing.com/instagram-gallerie/
+permalink: http://www.amidisturbing.com/gallery/
 published: true
 ---
-[wp-instagram-gallery]
+[arrow_insta_gallery id='307']
