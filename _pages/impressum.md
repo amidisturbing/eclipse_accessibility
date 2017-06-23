@@ -8,8 +8,8 @@ layout: page
 permalink: http://www.amidisturbing.com/impressum/
 published: true
 ---
-Rafaela Neff
+Rafaela Neff - Visual Artist
 
 Handjerystraße 72
 
-12159 Berlin
+DE12159 Berlin
