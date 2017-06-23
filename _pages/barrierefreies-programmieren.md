@@ -35,10 +35,4 @@ published: true
 <p class="p1">wie z.B. ViaOpta Nav von Novartis Pharma, die Blinde zu Ihrem Ziel lotst, in Ihrem Alltag behaupten</p>
 <p class="p1">können, sollte IT die Möglichkeit bieten, jedem anhand seiner seiner Eignung gemessen</p>
 <p class="p1">an den geistigen Fähigkeiten, den Zugang zu allen möglichen Berufsgruppen zu eröffnen.</p>
-<p class="p1">Es stellte sich die Frage, wie und womit blinde Programmierer arbeiten, insbesondere ob die IDEs,</p>
-<p class="p1">die für sehende Programmierer eine so unverzichtbare Unterstützung bieten, für blinde Programmierer</p>
-<p class="p1">erschlossen oder erschließbar sind.</p>
-<p class="p1">Hierfür stützt sich diese Arbeit auf die Suche und Kontaktaufnahme mit blinden Entwicklerinnen</p>
-<p class="p1">und Entwicklern, um die Arbeitsweise, Wünsche und Anregungen diesbezüglich zu evaluieren.</p>
-<p class="p1">Dieses Vorgehen dient der Zielfindung um eine nützliche Hilfestellung zur effizienten Gestaltung</p>
-<p class="p1">des Arbeitsalltages blinder Programmiererinnen und Programmierer zu erstellen.</p>
+<p class="p1"></p>
