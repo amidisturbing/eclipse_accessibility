@@ -1,6 +1,6 @@
 ---
 ID: 42
-post_title: About
+post_title: Über Ami
 author: amidisturbing
 post_date: 2017-03-24 17:24:26
 post_excerpt: ""
