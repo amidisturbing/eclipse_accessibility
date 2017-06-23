@@ -8,4 +8,4 @@ layout: page
 permalink: http://www.amidisturbing.com/kunst/bild/
 published: true
 ---
-## Leider gibt es hier NOCH nichts zu sehen!
+<p style="text-align: center;">## Leider gibt es hier NOCH nichts zu sehen!</p>
