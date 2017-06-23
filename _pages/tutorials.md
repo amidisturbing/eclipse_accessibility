@@ -1,12 +1,12 @@
 ---
 ID: 187
-post_title: Tutorials
+post_title: Eclipse Tutorials
 author: amidisturbing
 post_date: 2017-06-23 16:03:09
 post_excerpt: ""
 layout: page
 permalink: >
-  http://www.amidisturbing.com/barrierefreies-programmieren/tutorials/
+  http://www.amidisturbing.com/barrierefreies/tutorials/
 published: true
 ---
 <h2>Tutorials für blinde Entwickler*innen</h2>
