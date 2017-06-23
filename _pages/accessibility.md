@@ -9,3 +9,6 @@ permalink: >
   http://www.amidisturbing.com/accessibility/
 published: true
 ---
+Was is'n das?
+
+Warum bemüht sich Ami Disturbing um Barrierefreiheit?
