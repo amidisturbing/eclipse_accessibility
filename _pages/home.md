@@ -1,6 +1,6 @@
 ---
 ID: 19
-post_title: Home
+post_title: Start
 author: amidisturbing
 post_date: 2017-03-24 16:01:45
 post_excerpt: ""
