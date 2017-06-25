@@ -10,7 +10,7 @@ published: true
 ---
 &nbsp;
 
-Diese Seite ist das Zuhause von Ami Disturbing im World Wide Web. Womit Ami sich einrichtet und wie es dazu kam, kannst Du hier lesen.
+Diese Seite ist das Zuhause von Ami Disturbing im World Wide Web. Womit Ami sich ihre Zuhause-Seite einrichtet und wie es dazu kam, kannst Du hier lesen.
 
 -Aspekte dieser Website
 
@@ -22,13 +22,7 @@ Kunst,
 
 Aktuelles im Blog
 
--woher kommt die Themendiskrepanz:
-
-Kunst, Informatik
-
-- bla bla über Ami Disturbing
-
-Kunstfigur
+&nbsp;
 
 &nbsp;
 
