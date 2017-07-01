@@ -10,17 +10,21 @@ published: true
 ---
 &nbsp;
 
-Diese Seite ist das Zuhause von Ami Disturbing im World Wide Web. Womit Ami sich ihre Zuhause-Seite einrichtet und wie es dazu kam, kannst Du hier lesen.
+Hallo und herzlich Willkommen auf meiner Website. Ami Disturbing begann vor ungefähr zehn Jahren als ein Pseudonym im Internet. Über die Jahre bekam es ein Eigenleben und entwickelte sich bis hin zu einem fiktiven Charakter. Heute ist Ami Disturbing die figur, die alle meine Interessen vereint.
 
--Aspekte dieser Website
 
-Barrierefreiheit in der Softwareentwicklung,
 
-Einstieg in Eclipse mit dem Screenreader,
+Hier findest du  
 
-Kunst,
+Diese widmet sich dem Thema meiner Bachelorarbeit
 
-Aktuelles im Blog
+Softwareentwicklung ohne Barrieren -
+
+Einstieg in Eclipse mit dem Screenreader
+
+
+
+Artikel zu verschiedenen Themen findest du zukünftig im Blog. 
 
 &nbsp;
 
