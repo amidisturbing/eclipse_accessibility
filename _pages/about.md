@@ -12,13 +12,12 @@ published: true
 
 
 ## Wie Ami Disturbing entstand
+
 Diese Seite bietet Platz zum Austausch über Barrierefreiheit in der IT und IT-Berufen. In der Rubrik Barrierefreies findest du neben Tutorials für die Nutzung der Eclipse IDE mit Hilfe von Screenreadern auch nützliche Shortcuts für die Erstellung von Java Programmen in der Eclipse IDE.
 
+Die aktuellsten Bilder direkt von Instagram gibt's unter [Galerie](http://www.amidisturbing.com/gallery/) Artikel zu verschiedenen Themen findest du zukünftig im Blog. 
 
-
-Artikel zu verschiedenen Themen findest du zukünftig im Blog. 
-
-Ami Disturbing ist Mitglied des Vereins Braille ohne Grenzen (Braille without Boarders) <- LINK! und ehrenamtliche Helferin bei Mehrwertvoll e.V. <- LINK!
+Ami Disturbing ist Mitglied des Vereins Braille ohne Grenzen (Braille without Boarders) <- LINK!
 
 &nbsp;
 

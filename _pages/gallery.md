@@ -1,6 +1,6 @@
 ---
 ID: 281
-post_title: Gallerie
+post_title: Galerie
 author: amidisturbing
 post_date: 2017-06-23 21:26:59
 post_excerpt: ""
