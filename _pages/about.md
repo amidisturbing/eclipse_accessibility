@@ -1,6 +1,6 @@
 ---
 ID: 42
-post_title: Über Ami
+post_title: Über uns
 author: amidisturbing
 post_date: 2017-03-24 17:24:26
 post_excerpt: ""
@@ -10,21 +10,15 @@ published: true
 ---
 &nbsp;
 
-Hallo und herzlich Willkommen auf meiner Website. Ami Disturbing begann vor ungefähr zehn Jahren als ein Pseudonym im Internet. Über die Jahre bekam es ein Eigenleben und entwickelte sich bis hin zu einem fiktiven Charakter. Heute ist Ami Disturbing die figur, die alle meine Interessen vereint.
 
-
-
-Hier findest du  
-
-Diese widmet sich dem Thema meiner Bachelorarbeit
-
-Softwareentwicklung ohne Barrieren -
-
-Einstieg in Eclipse mit dem Screenreader
+## Wie Ami Disturbing entstand
+Diese Seite bietet Platz zum Austausch über Barrierefreiheit in der IT und IT-Berufen. In der Rubrik Barrierefreies findest du neben Tutorials für die Nutzung der Eclipse IDE mit Hilfe von Screenreadern auch nützliche Shortcuts für die Erstellung von Java Programmen in der Eclipse IDE.
 
 
 
 Artikel zu verschiedenen Themen findest du zukünftig im Blog. 
+
+Ami Disturbing ist Mitglied des Vereins Braille ohne Grenzen (Braille without Boarders) <- LINK! und ehrenamtliche Helferin bei Mehrwertvoll e.V. <- LINK!
 
 &nbsp;
 

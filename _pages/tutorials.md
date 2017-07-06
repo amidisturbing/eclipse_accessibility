@@ -9,7 +9,16 @@ permalink: >
   http://www.amidisturbing.com/barrierefreies/tutorials/
 published: true
 ---
-<h2>Tutorials für blinde Entwickler*innen</h2>
-<p class="p1">Es stellte sich die Frage, wie und womit blinde Programmierer arbeiten, insbesondere ob die IDEs, die für sehende Programmierer eine so unverzichtbare Unterstützung bieten, für blinde Programmierer erschlossen oder erschließbar sind. Hierfür stützt sich dieses Projekt auf die Suche und Kontaktaufnahme mit blinden Entwicklerinnen und Entwicklern, um die Arbeitsweise, Wünsche und Anregungen diesbezüglich zu evaluieren.</p>
-<p class="p1">Dieses Vorgehen dient der Zielfindung um eine nützliche Hilfestellung zur effizienten Gestaltung des Arbeitsalltages blinder Programmiererinnen und Programmierer zu erstellen.</p>
-Wenn du also Lust hast Tutorials für blinde Programmiererinnen und Programmierer mit zu gestalten, fork einfach das <a href="https://github.com/amidisturbing/eclipse_accessibility" target="_blank" rel="noopener">Repository auf Github</a>.
+##Tutorials für blinde Entwickler*innen
+
+Wie und womit arbeiten blinde Softwaredeveloper eigentlich?
+
+Sind die gängigen IDEs, die für Sehende Entwickler und Entwicklerinnen eine so unverzichtbare Unterstützung bieten, für Blinde überhaupt erschlossen oder erschließbar? Eine Übersicht zur Barrierefreiheit bei Entwicklungsumgebungen findest du z.B. auf dem Blog über Barrierefreiheit bei Software, Webseiten und Betriebssysteme von Markus Lemcke unter <http://www.marlem-software.de/marlemblog/2016/08/30/barrierefreiheit-bei-entwicklungsumgebungen-artikelreihe/>
+
+Einige der wichtigsten Funktionen zur Erstellung von Java-Programmen in der Eclipse IDE mit Hilfe des Screenreaders JAWS unter Windows werden [hier](http://www.amidisturbing.com/barrierefreies/eclipse-tutorial/) über die mir bekannten Wege erklärt. Ein verkürzte Variante für die Eclipse IDE unter Mac OsX und dem darin integrierten Screenreader VoiceOver findest du unter <http://www.amidisturbing.com/barrierefreies/eclipse-osx-hello-world/> in Form eines Java Hello World Tutorials für blinde Programmiererinnen und Programmierer.
+
+Dieses Projekt lebt von der Unterstützung blinden Entwicklerinnen und Entwicklern. Nur durch ein Verständnis der Arbeitsweise von Mensch und Technik und den resultierenden Wünsche und Anregungen können hier großartige Tutorials zur barrierefreien Softwareentwicklung entstehen.
+
+Hilf uns, den Arbeitsalltages blinder Programmiererinnen und Programmierer so effizient wie nötig zu gestalten.
+
+Hast du Interesse, an Tutorials für blinde Developer mit zu wirken? Dann schick uns eine [Nachricht](http://http://www.amidisturbing.com/contact/) oder fork das <a href="https://github.com/amidisturbing/eclipse_accessibility" target="_blank" rel="noopener">Repository auf Github</a>.
