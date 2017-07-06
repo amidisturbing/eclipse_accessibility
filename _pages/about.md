@@ -20,7 +20,7 @@ Die aktuellsten Bilder meines *Instagram* Accounts gibt's unter [Galerie](http:/
 
 ### Zukunftsmusik
 #### Wenn jemand etwas lesenswertes schreibt, entsteht hier sicher auch ein Blog
-Artikel zu verschiedenen Themen findest du zukünftig im Blog.
+Artikel zu verschiedenen Themen findest du zukünftig im [Blog](http://www.amidisturbing.com/blog/).
 
 ### Unterstützenswertes
 Ami Disturbing ist Mitglied des Vereins *Braille ohne Grenzen* ([Braille without Boarders](http://www.braillewithoutborders.org/)), einem Projekt, welches für sich spricht.
