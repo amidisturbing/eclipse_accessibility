@@ -9,14 +9,14 @@ permalink: http://www.amidisturbing.com/about/
 published: true
 ---
 ## Barrierefreiheit, Bilder und Blog
-
-### Softwareentwicklung ohne Barrieren
+<h3>Softwareentwicklung ohne Barrieren</h3>
 #### Benutzung der Entwicklungsumgebung Eclipse mit Hilfe eines Screenreaders
+
 Diese Seite bietet Platz zum Austausch über Barrierefreiheit in der IT und IT-Berufen. In der Rubrik Barrierefreies findest du neben Tutorials für die Nutzung der Eclipse IDE mit Hilfe von Screenreadern auch nützliche Shortcuts für die Erstellung von Java Programmen in der Eclipse IDE.
 
 ### Visual Impact
 #### Ami Disturbing auf Instagram
-Die aktuellsten Bilder von *Instagram* gibt's unter [Galerie](http://www.amidisturbing.com/gallery/).
+Die aktuellsten Bilder meines *Instagram* Accounts gibt's unter [Galerie](http://www.amidisturbing.com/gallery/).
 
 ### Zukunftsmusik
 #### Wenn jemand etwas lesenswertes schreibt, entsteht hier sicher auch ein Blog
