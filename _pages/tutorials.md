@@ -9,7 +9,7 @@ permalink: >
   http://www.amidisturbing.com/barrierefreies/tutorials/
 published: true
 ---
-##Tutorials für blinde Entwickler*innen
+## Tutorials für blinde Entwickler*innen
 
 Wie und womit arbeiten blinde Softwaredeveloper eigentlich?
 
