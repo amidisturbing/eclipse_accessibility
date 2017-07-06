@@ -8,19 +8,19 @@ layout: page
 permalink: http://www.amidisturbing.com/about/
 published: true
 ---
-&nbsp;
+## Barrierefreiheit, Bilder und Blog
 
-
-## Wie Ami Disturbing entstand
-
+### Softwareentwicklung ohne Barrieren
+#### BENUTZUNG VON ECLIPSE MIT DEM SCREENREADER
 Diese Seite bietet Platz zum Austausch über Barrierefreiheit in der IT und IT-Berufen. In der Rubrik Barrierefreies findest du neben Tutorials für die Nutzung der Eclipse IDE mit Hilfe von Screenreadern auch nützliche Shortcuts für die Erstellung von Java Programmen in der Eclipse IDE.
 
-Die aktuellsten Bilder direkt von Instagram gibt's unter [Galerie](http://www.amidisturbing.com/gallery/) Artikel zu verschiedenen Themen findest du zukünftig im Blog. 
+### Visual Impact
+#### Ami Disturbing auf Instagram
+Die aktuellsten Bilder von *Instagram* gibt's unter [Galerie](http://www.amidisturbing.com/gallery/).
 
-Ami Disturbing ist Mitglied des Vereins Braille ohne Grenzen (Braille without Boarders) <- LINK!
+### Zukunftsmusik
+#### Wenn jemand etwas lesenswertes schreibt, entsteht hier sicher auch ein Blog
+Artikel zu verschiedenen Themen findest du zukünftig im Blog. 
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
+### Unterstützenswertes
+Ami Disturbing ist Mitglied des Vereins *Braille ohne Grenzen* ([Braille without Boarders](http://www.braillewithoutborders.org/)), einem Projekt, welches für sich spricht.
